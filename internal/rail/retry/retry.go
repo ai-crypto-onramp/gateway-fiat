@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail"
 )
 
 // MaxAttempts is the maximum number of retry attempts per outbound call. It

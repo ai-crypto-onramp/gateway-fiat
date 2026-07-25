@@ -12,12 +12,12 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connector/internal/ach/bankapi"
-	"github.com/ai-crypto-onramp/rail-connector/internal/ach/nacha"
-	"github.com/ai-crypto-onramp/rail-connector/internal/audit"
-	"github.com/ai-crypto-onramp/rail-connector/internal/metrics"
-	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connector/internal/store"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/ach/bankapi"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/ach/nacha"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/audit"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/metrics"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/store"
 )
 
 // Default bank partner API base URL (overridden by RAIL_ACH_PARTNER_URL).

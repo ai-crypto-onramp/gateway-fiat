@@ -5,7 +5,7 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connector/internal/store"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/store"
 )
 
 func TestTrackerTotals(t *testing.T) {

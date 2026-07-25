@@ -13,13 +13,13 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connector/internal/audit"
-	"github.com/ai-crypto-onramp/rail-connector/internal/dummy"
-	"github.com/ai-crypto-onramp/rail-connector/internal/metrics"
-	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connector/internal/settlement"
-	"github.com/ai-crypto-onramp/rail-connector/internal/store"
-	"github.com/ai-crypto-onramp/rail-connector/internal/webhooks"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/audit"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/dummy"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/metrics"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/settlement"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/store"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/webhooks"
 )
 
 // DefaultWebhookSecret is the fallback HMAC secret when WEBHOOK_SECRET is unset.

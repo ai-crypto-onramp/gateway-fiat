@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail"
 )
 
 // Processor is the interface a card processor client implements. Both the

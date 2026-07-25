@@ -1,6 +1,6 @@
 package pix
 
-import "github.com/ai-crypto-onramp/rail-connector/internal/rail"
+import "github.com/ai-crypto-onramp/gateway-fiat/internal/rail"
 
 // mapReasonCode translates a PIX return reason onto the normalized rail
 // error taxonomy.

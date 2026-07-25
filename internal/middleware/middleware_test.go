@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connector/internal/rail/circuit"
-	"github.com/ai-crypto-onramp/rail-connector/internal/rail/retry"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail/circuit"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail/retry"
 )
 
 func TestCallSucceeds(t *testing.T) {

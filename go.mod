@@ -1,4 +1,4 @@
-module github.com/ai-crypto-onramp/rail-connector
+module github.com/ai-crypto-onramp/gateway-fiat
 
 go 1.25.0
 

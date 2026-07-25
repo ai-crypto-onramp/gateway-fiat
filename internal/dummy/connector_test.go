@@ -6,10 +6,10 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connector/internal/audit"
-	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connector/internal/settlement"
-	"github.com/ai-crypto-onramp/rail-connector/internal/store"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/audit"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/settlement"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/store"
 )
 
 func newTestConnector(t *testing.T, fail bool) (*Connector, store.Store, *settlement.Tracker, *audit.Recorder) {

@@ -9,9 +9,9 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connector/internal/store"
-	"github.com/ai-crypto-onramp/rail-connector/internal/store/migrations"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/store"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/store/migrations"
 )
 
 type DB struct {

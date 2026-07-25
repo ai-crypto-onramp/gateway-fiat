@@ -19,10 +19,10 @@ cover: test
 	go tool cover -func=coverage.out | tail -1
 
 docker-build:
-	docker build -t ai-crypto-onramp/rail-connector .
+	docker build -t ai-crypto-onramp/gateway-fiat .
 
 docker-run:
-	docker run --rm -p 8080:8080 ai-crypto-onramp/rail-connector
+	docker run --rm -p 8080:8080 ai-crypto-onramp/gateway-fiat
 
 clean:
 	rm -rf bin/ coverage.out

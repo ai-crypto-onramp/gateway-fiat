@@ -1,9 +1,9 @@
 package dummy
 
 import (
-	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connector/internal/settlement"
-	"github.com/ai-crypto-onramp/rail-connector/internal/store"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/settlement"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/store"
 )
 
 func init() {
