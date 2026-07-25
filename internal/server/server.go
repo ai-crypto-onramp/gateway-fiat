@@ -13,13 +13,13 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/audit"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/dummy"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/metrics"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/settlement"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/store"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/webhooks"
+	"github.com/ai-crypto-onramp/rail-connector/internal/audit"
+	"github.com/ai-crypto-onramp/rail-connector/internal/dummy"
+	"github.com/ai-crypto-onramp/rail-connector/internal/metrics"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
+	"github.com/ai-crypto-onramp/rail-connector/internal/settlement"
+	"github.com/ai-crypto-onramp/rail-connector/internal/store"
+	"github.com/ai-crypto-onramp/rail-connector/internal/webhooks"
 )
 
 // DefaultWebhookSecret is the fallback HMAC secret when WEBHOOK_SECRET is unset.

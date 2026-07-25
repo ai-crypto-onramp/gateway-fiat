@@ -5,7 +5,7 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/store"
+	"github.com/ai-crypto-onramp/rail-connector/internal/store"
 )
 
 // Tracker keeps per-rail settlement totals in memory. It wraps the Store's

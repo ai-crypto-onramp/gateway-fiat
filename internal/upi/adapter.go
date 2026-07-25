@@ -12,11 +12,11 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/audit"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/metrics"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/store"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/upi/npci"
+	"github.com/ai-crypto-onramp/rail-connector/internal/audit"
+	"github.com/ai-crypto-onramp/rail-connector/internal/metrics"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
+	"github.com/ai-crypto-onramp/rail-connector/internal/store"
+	"github.com/ai-crypto-onramp/rail-connector/internal/upi/npci"
 )
 
 // Default NPCI base URL.

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
 )
 
 func TestDoSucceedsOnFirst(t *testing.T) {

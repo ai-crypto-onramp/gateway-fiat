@@ -11,12 +11,12 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/audit"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/metrics"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/sepa/gateway"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/sepa/iso20022"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/store"
+	"github.com/ai-crypto-onramp/rail-connector/internal/audit"
+	"github.com/ai-crypto-onramp/rail-connector/internal/metrics"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
+	"github.com/ai-crypto-onramp/rail-connector/internal/sepa/gateway"
+	"github.com/ai-crypto-onramp/rail-connector/internal/sepa/iso20022"
+	"github.com/ai-crypto-onramp/rail-connector/internal/store"
 )
 
 // Default gateway base URL.

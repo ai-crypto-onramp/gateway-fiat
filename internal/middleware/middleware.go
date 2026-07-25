@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail/circuit"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail/retry"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail/circuit"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail/retry"
 )
 
 // DefaultMaxFailures is read from CIRCUIT_MAX_FAILURES at init time.

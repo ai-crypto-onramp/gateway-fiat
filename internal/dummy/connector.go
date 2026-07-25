@@ -12,10 +12,10 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/audit"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/settlement"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/store"
+	"github.com/ai-crypto-onramp/rail-connector/internal/audit"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
+	"github.com/ai-crypto-onramp/rail-connector/internal/settlement"
+	"github.com/ai-crypto-onramp/rail-connector/internal/store"
 	"github.com/google/uuid"
 )
 

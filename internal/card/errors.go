@@ -1,6 +1,6 @@
 package card
 
-import "github.com/ai-crypto-onramp/rail-connectors/internal/rail"
+import "github.com/ai-crypto-onramp/rail-connector/internal/rail"
 
 // mapStripeDecline translates a Stripe decline code (or API error code) onto
 // the normalized rail error taxonomy.

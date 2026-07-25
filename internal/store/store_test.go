@@ -5,7 +5,7 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
 )
 
 func TestUpsertAndGet(t *testing.T) {

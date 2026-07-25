@@ -6,7 +6,7 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
 )
 
 // Record is a single rail payment request stored in-memory.

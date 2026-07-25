@@ -1,6 +1,6 @@
 package upi
 
-import "github.com/ai-crypto-onramp/rail-connectors/internal/rail"
+import "github.com/ai-crypto-onramp/rail-connector/internal/rail"
 
 // mapResponseCode translates an NPCI response code onto the normalized rail
 // error taxonomy.

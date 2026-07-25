@@ -7,11 +7,11 @@ import (
 	"os"
 	"strings"
 
-	_ "github.com/ai-crypto-onramp/rail-connectors/internal/dummy"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/otel"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/server"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/store"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/store/postgres"
+	_ "github.com/ai-crypto-onramp/rail-connector/internal/dummy"
+	"github.com/ai-crypto-onramp/rail-connector/internal/otel"
+	"github.com/ai-crypto-onramp/rail-connector/internal/server"
+	"github.com/ai-crypto-onramp/rail-connector/internal/store"
+	"github.com/ai-crypto-onramp/rail-connector/internal/store/postgres"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 )
 

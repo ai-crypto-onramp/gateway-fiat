@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/metrics"
+	"github.com/ai-crypto-onramp/rail-connector/internal/metrics"
 )
 
 // State is the circuit breaker state.

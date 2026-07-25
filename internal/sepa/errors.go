@@ -1,6 +1,6 @@
 package sepa
 
-import "github.com/ai-crypto-onramp/rail-connectors/internal/rail"
+import "github.com/ai-crypto-onramp/rail-connector/internal/rail"
 
 // mapReasonCode translates a SEPA reason code onto the normalized rail error
 // taxonomy.

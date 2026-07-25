@@ -1,4 +1,4 @@
-module github.com/ai-crypto-onramp/rail-connectors
+module github.com/ai-crypto-onramp/rail-connector
 
 go 1.25.0
 

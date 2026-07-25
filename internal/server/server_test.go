@@ -11,10 +11,10 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/ai-crypto-onramp/rail-connectors/internal/audit"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/rail"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/store"
-	"github.com/ai-crypto-onramp/rail-connectors/internal/webhooks"
+	"github.com/ai-crypto-onramp/rail-connector/internal/audit"
+	"github.com/ai-crypto-onramp/rail-connector/internal/rail"
+	"github.com/ai-crypto-onramp/rail-connector/internal/store"
+	"github.com/ai-crypto-onramp/rail-connector/internal/webhooks"
 )
 
 func newTestService(t *testing.T) (*Service, *audit.Recorder, store.Store) {
