@@ -14,6 +14,7 @@ import (
 	"github.com/shopspring/decimal"
 
 	"github.com/ai-crypto-onramp/gateway-fiat/internal/audit"
+	"github.com/ai-crypto-onramp/gateway-fiat/internal/authtoken"
 	"github.com/ai-crypto-onramp/gateway-fiat/internal/dummy"
 	"github.com/ai-crypto-onramp/gateway-fiat/internal/metrics"
 	"github.com/ai-crypto-onramp/gateway-fiat/internal/rail"
@@ -95,7 +96,8 @@ func (s *Service) Mux() http.Handler {
 	mux.HandleFunc("GET /v1/status/", s.status)
 	mux.HandleFunc("POST /webhooks/", s.webhook)
 	mux.HandleFunc("/metrics", s.metrics)
-	return mux
+	secret, bypass := authtoken.SecretFromEnv()
+	return authtoken.Middleware(secret, bypass)(mux)
 }
 
 // SetReady toggles the readyz response (used by tests / lifecycle).
