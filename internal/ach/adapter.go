@@ -325,13 +325,9 @@ func mapStatus(s string) rail.Status {
 }
 
 func toMinor(amount decimal.Decimal) int64 {
-	// truncate to cents, then round to nearest cent
-	cents := amount.Mul(decimal.NewFromInt(100))
-	f, _ := cents.Float64()
-	if f >= 0 {
-		return int64(f + 0.5)
-	}
-	return int64(f - 0.5)
+	// Round to nearest cent using decimal arithmetic (half-up). Avoids
+	// float64 round-trip on the money path.
+	return amount.Mul(decimal.NewFromInt(100)).Round(0).IntPart()
 }
 
 func max1(n int) int {
